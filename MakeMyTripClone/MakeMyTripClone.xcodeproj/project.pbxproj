@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032B9FFA2201C1FE003D3A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B9FF92201C1FE003D3A70 /* AppDelegate.swift */; };
+		032B9FFC2201C1FE003D3A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B9FFB2201C1FE003D3A70 /* ViewController.swift */; };
+		032B9FFF2201C1FE003D3A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032B9FFD2201C1FE003D3A70 /* Main.storyboard */; };
+		032BA0012201C200003D3A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032BA0002201C200003D3A70 /* Assets.xcassets */; };
+		032BA0042201C200003D3A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032BA0022201C200003D3A70 /* LaunchScreen.storyboard */; };
+		032BA00F2201C278003D3A70 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA00E2201C278003D3A70 /* Model.swift */; };
+		032BA0122201C6B7003D3A70 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA0112201C6B7003D3A70 /* UIViewExtension.swift */; };
+		032BA0142201CDF1003D3A70 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA0132201CDF1003D3A70 /* TableViewCell.swift */; };
+		032BA0172201D117003D3A70 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032BA0162201D117003D3A70 /* colors.xcassets */; };
+		032BA0192201D227003D3A70 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA0182201D227003D3A70 /* Theme.swift */; };
+		032BA01B2201DFD1003D3A70 /* StringX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA01A2201DFD1003D3A70 /* StringX.swift */; };
+		032BA01D2202001F003D3A70 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BA01C2202001F003D3A70 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032B9FF62201C1FE003D3A70 /* MakeMyTripClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeMyTripClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032B9FF92201C1FE003D3A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		032B9FFB2201C1FE003D3A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		032B9FFE2201C1FE003D3A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032BA0002201C200003D3A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032BA0032201C200003D3A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032BA0052201C200003D3A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032BA00E2201C278003D3A70 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		032BA0112201C6B7003D3A70 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		032BA0132201CDF1003D3A70 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		032BA0162201D117003D3A70 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		032BA0182201D227003D3A70 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		032BA01A2201DFD1003D3A70 /* StringX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringX.swift; sourceTree = "<group>"; };
+		032BA01C2202001F003D3A70 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032B9FF32201C1FE003D3A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032B9FED2201C1FE003D3A70 = {
+			isa = PBXGroup;
+			children = (
+				032B9FF82201C1FE003D3A70 /* MakeMyTripClone */,
+				032B9FF72201C1FE003D3A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032B9FF72201C1FE003D3A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032B9FF62201C1FE003D3A70 /* MakeMyTripClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032B9FF82201C1FE003D3A70 /* MakeMyTripClone */ = {
+			isa = PBXGroup;
+			children = (
+				032BA0102201C69E003D3A70 /* Resources */,
+				032BA00D2201C25B003D3A70 /* Model */,
+				032BA00C2201C226003D3A70 /* Controller */,
+				032BA00B2201C215003D3A70 /* View */,
+				032B9FF92201C1FE003D3A70 /* AppDelegate.swift */,
+				032BA0002201C200003D3A70 /* Assets.xcassets */,
+				032BA0052201C200003D3A70 /* Info.plist */,
+			);
+			path = MakeMyTripClone;
+			sourceTree = "<group>";
+		};
+		032BA00B2201C215003D3A70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				032B9FFD2201C1FE003D3A70 /* Main.storyboard */,
+				032BA0022201C200003D3A70 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		032BA00C2201C226003D3A70 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				032B9FFB2201C1FE003D3A70 /* ViewController.swift */,
+				032BA0132201CDF1003D3A70 /* TableViewCell.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		032BA00D2201C25B003D3A70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				032BA00E2201C278003D3A70 /* Model.swift */,
+				032BA01C2202001F003D3A70 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		032BA0102201C69E003D3A70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				032BA0152201D0A8003D3A70 /* colors */,
+				032BA0112201C6B7003D3A70 /* UIViewExtension.swift */,
+				032BA01A2201DFD1003D3A70 /* StringX.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		032BA0152201D0A8003D3A70 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				032BA0162201D117003D3A70 /* colors.xcassets */,
+				032BA0182201D227003D3A70 /* Theme.swift */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032B9FF52201C1FE003D3A70 /* MakeMyTripClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032BA0082201C200003D3A70 /* Build configuration list for PBXNativeTarget "MakeMyTripClone" */;
+			buildPhases = (
+				032B9FF22201C1FE003D3A70 /* Sources */,
+				032B9FF32201C1FE003D3A70 /* Frameworks */,
+				032B9FF42201C1FE003D3A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeMyTripClone;
+			productName = MakeMyTripClone;
+			productReference = 032B9FF62201C1FE003D3A70 /* MakeMyTripClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032B9FEE2201C1FE003D3A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Baisampayan Saha";
+				TargetAttributes = {
+					032B9FF52201C1FE003D3A70 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 032B9FF12201C1FE003D3A70 /* Build configuration list for PBXProject "MakeMyTripClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032B9FED2201C1FE003D3A70;
+			productRefGroup = 032B9FF72201C1FE003D3A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032B9FF52201C1FE003D3A70 /* MakeMyTripClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032B9FF42201C1FE003D3A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032BA0042201C200003D3A70 /* LaunchScreen.storyboard in Resources */,
+				032BA0172201D117003D3A70 /* colors.xcassets in Resources */,
+				032BA0012201C200003D3A70 /* Assets.xcassets in Resources */,
+				032B9FFF2201C1FE003D3A70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032B9FF22201C1FE003D3A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032BA0142201CDF1003D3A70 /* TableViewCell.swift in Sources */,
+				032BA00F2201C278003D3A70 /* Model.swift in Sources */,
+				032BA0122201C6B7003D3A70 /* UIViewExtension.swift in Sources */,
+				032BA01B2201DFD1003D3A70 /* StringX.swift in Sources */,
+				032BA0192201D227003D3A70 /* Theme.swift in Sources */,
+				032B9FFC2201C1FE003D3A70 /* ViewController.swift in Sources */,
+				032B9FFA2201C1FE003D3A70 /* AppDelegate.swift in Sources */,
+				032BA01D2202001F003D3A70 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		032B9FFD2201C1FE003D3A70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032B9FFE2201C1FE003D3A70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		032BA0022201C200003D3A70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032BA0032201C200003D3A70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032BA0062201C200003D3A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		032BA0072201C200003D3A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032BA0092201C200003D3A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S42P65D2LF;
+				INFOPLIST_FILE = MakeMyTripClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baisampayans.MakeMyTripClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032BA00A2201C200003D3A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S42P65D2LF;
+				INFOPLIST_FILE = MakeMyTripClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baisampayans.MakeMyTripClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032B9FF12201C1FE003D3A70 /* Build configuration list for PBXProject "MakeMyTripClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032BA0062201C200003D3A70 /* Debug */,
+				032BA0072201C200003D3A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032BA0082201C200003D3A70 /* Build configuration list for PBXNativeTarget "MakeMyTripClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032BA0092201C200003D3A70 /* Debug */,
+				032BA00A2201C200003D3A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032B9FEE2201C1FE003D3A70 /* Project object */;
+}
